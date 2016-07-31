@@ -118,9 +118,9 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 /* ------ End of Carousel ----- */
 
-/* ------ Welcome & Slogna ------ */
+/* ------ Welcome & Slogan ------ */
 .templatemo-welcome {
-    border-bottom: 1px solid #cccccc;
+    background-color: #9CEBD9;
     min-height: 230px;
 }
 
