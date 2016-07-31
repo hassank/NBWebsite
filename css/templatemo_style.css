@@ -13,7 +13,6 @@ body {
     font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
     font-size: 12px;
 	
-	font-weight: 300; 
 	font-style: normal; 
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
@@ -53,7 +52,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .templatemo-top-menu .navbar-brand {
     padding: 0;
-    margin: 30px 0 0 0;
+    margin: 15px;
 }
 
 /* ------ Carousel ----- */
@@ -134,8 +133,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-service {
-    margin-bottom: 100px;
-    margin-top: 100px;
+    background-color: #4BA214;
 }
 
 .templatemo-service-item {
@@ -196,19 +194,20 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-    background-color: #ff7600;
+    background-color: #60EF06;
     color:#fff;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    background-color: #ff7600;
+    background-color: #60EF06;
     color:#fff;
 }
 
 
 .nav > li > a {
     color: #929292;
+
 }
 .navbar-default {
     background-color:#fff;
@@ -218,7 +217,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #ff7600;
+    background-color: #60EF06;
     color:#fff;
 }
 
@@ -261,7 +260,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-team {
-    background: url('../images/background.png') ; 
+    background-color: #60EF06; 
     font-family:  'Open Sans', sans-serif;
     min-height:590px;
     color:#ffffff;
@@ -412,6 +411,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 #templatemo-contact {
+    background-color: #ED632E;
 	margin-top:0px; 
 	border-top: 1px solid #cccccc; 
 	font-size:14px;
@@ -456,8 +456,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-footer {
-	border-top: 2px solid #cccccc; 
-	margin-top: 10px;
+    background-color: #9C2D0B;
 }
 
 .footer_container {
@@ -657,6 +656,8 @@ ul.templatemo-project-gallery  li  a img:hover {
   .navbar-nav > li > a {
     padding-top: 9px;
     padding-bottom: 9px;
+    font-weight: 900;
+    font-size: 16px;
   } 
 }
 
