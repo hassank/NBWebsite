@@ -13,7 +13,7 @@ jQuery(function($) {
             'callback=initialize';
         document.body.appendChild(script);
 
-        top_menu_height = $('.templatemo-top-menu').height();
+        top_menu_height = $('.nb-top-menu').height();
         // scroll spy to auto active the nav item
         $('body').scrollspy({ target: '#templatemo-nav-bar', offset: top_menu_height + 10 });
 		$('.external-link').unbind('click');
@@ -25,7 +25,7 @@ jQuery(function($) {
         });
 
         // scroll to specific id when click on menu
-        $('.templatemo-top-menu .navbar-nav a').click(function(e){
+        $('.nb-top-menu .navbar-nav a').click(function(e){
             e.preventDefault(); 
             var linkId = $(this).attr('href');
             scrollTo(linkId);
@@ -41,7 +41,7 @@ jQuery(function($) {
 		div.innerHTML = div.innerHTML + dt;
 		*/
         // to stick navbar on top
-        $('.templatemo-top-menu ').stickUp();
+        $('.nb-top-menu ').stickUp();
 
         // gallery category
         $('.templatemo-gallery-category a').click(function(e){
