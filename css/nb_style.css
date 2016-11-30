@@ -1,0 +1,42 @@
+.eqi-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.test {
+	border: 1px solid black;
+}
+
+.story-img {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.gray-text {
+	color: #2d2d2d
+}
+
+.green-text {
+	color: #2a6b0c;
+}
+
+.caption-header {
+	font-family: 'Cuprum', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+}
+
+.caption {
+	font-family: 'Cuprum', sans-serif;
+	font-size: 25px; 
+	text-align: center;
+}
+
+.caption-mini {
+	font-family: 'Cuprum', sans-serif;
+	font-size: 15px; 
+	text-align: center;
+}

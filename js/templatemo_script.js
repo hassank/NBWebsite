@@ -68,12 +68,20 @@ jQuery(function($) {
 });
 
 function initialize() {
+    var  myLatLng = new google.maps.LatLng(38.401913, -121.890231)
+
     var mapOptions = {
-      zoom: 12,
-      center: new google.maps.LatLng(16.8451789,96.1439764)
+      zoom: 14,
+      center: myLatLng
     };
 
     var map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
+
+
+    var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: "Nature's Bounty"});
 }
 
 // scroll animation 
