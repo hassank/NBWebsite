@@ -41,7 +41,7 @@ jQuery(function($) {
 		div.innerHTML = div.innerHTML + dt;
 		*/
         // to stick navbar on top
-        $('.nb-top-menu ').stickUp();
+        $('.nb-top-menu').stickUp();
 
         // gallery category
         $('.templatemo-gallery-category a').click(function(e){

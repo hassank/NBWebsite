@@ -1,3 +1,94 @@
+/* ------ Content Sections ----- */
+.nb-top-menu {
+    min-height:75px;
+    background-color:#444343;
+    z-index: 5000;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nb-testimonial {
+	font-family: 'Bungee', cursive; 
+	font-size: 30px;
+	display: table;
+	width: 100%;
+	height: 150px;
+}
+
+.nb-products {
+	text-align: center;
+}
+
+.nb-news {
+}
+
+.nb-story {
+	background-color:#296b0c;
+}
+
+.nb-contact {
+	background-color:#444343;
+}
+/* ------ End of Content Sections ----- */
+
+.nb-testimonial div {
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center;
+}
+
+.product-space {
+	height: 300px;
+	background-repeat: no-repeat; 
+	background-size: 100% 100%;
+	display: table;
+	padding: 5px;
+}
+
+.product-space img {
+	 height: 75px;
+	 width: 75px;
+}
+
+.news-column {
+	height: 100%;
+	display: table; 
+	margin: 0px;
+}
+
+.story-item {
+	height: 100%;
+	display: table;
+}
+
+.contact-item {
+	height: 100%;
+	display: table;
+}
+
+.nb-contact-map {
+    margin-bottom: 20px 0px 10px;
+    height: 275px;
+
+}
+
+.cell-align {
+	display: table-cell;  
+	vertical-align: middle; 
+	text-align: center;
+}
+
+.styled-hr {
+	border: 0; 
+	height: 1px; 
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.no-margin {
+	margin: 0px;
+}
+
 .eqi-container {
   display: flex;
   justify-content: space-between;
@@ -15,11 +106,20 @@
 }
 
 .gray-text {
-	color: #2d2d2d
+	color: #444343
 }
 
 .green-text {
 	color: #2a6b0c;
+}
+
+.white-text {
+	color: #ffffff;
+}
+
+.subtitle {
+	font-family: 'Bungee', cursive;
+	font-size: 60px;
 }
 
 .caption-header {
@@ -40,3 +140,120 @@
 	font-size: 15px; 
 	text-align: center;
 }
+
+/* ------ Carousel ----- */
+#nb-carousel {
+    background: url('../images/templatemo_carousel_bg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+    margin-bottom:0;
+    height: 600px;
+}
+
+#nb-carousel .carousel-caption {
+    z-index: 10;
+}
+
+#nb-carousel .item {
+    height: 400px;
+}
+#nb-carousel .carousel-inner > .item > img {
+    position: absolute;
+    min-width: 100%;
+    height: 500px;
+    left: 0;
+    top: 0;
+}
+
+@media (min-width: 768px) {
+    #templatemo-carousel .carousel-caption p {
+        margin-bottom: 20px;
+        line-height: 1.4;
+        font-size: 21px;
+    }
+
+    #templatemo-carousel .carousel-caption {
+        padding-bottom: 140px;
+        right: 20%;
+        left: 20%;
+    }
+}
+
+@media (max-width: 768px) {
+    #templatemo-carousel .carousel-caption {
+        padding-bottom: 120px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #templatemo-carousel {
+        background: url('../images/templatemo_carousel_bg_s.jpg') no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow-x: hidden;
+        margin-bottom:0;
+        height: 500px;
+    }
+}
+/* ------ End of Carousel ----- */
+
+/* ------ Nav Bar ----- */
+.nav > li > a {
+    padding: 10px 20px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background-color: #2C6B0C;
+    color:#fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #2C6B0C;
+    color:#fff;
+}
+
+.nav > li > a {
+    color: #929292;
+}
+
+.navbar-default {
+    background-color:#fff;
+    border:none;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #2C6B0C;
+    color:#fff;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-weight: 900;
+    font-size: 16px;
+  } 
+}
+
+.nb-top-menu .navbar-toggle {
+    margin-top: 38px;
+}
+
+.nb-top-menu .navbar-brand {
+    padding: 0;
+    margin: 3px;
+}
+/* ------ End of Nav Bar ----- */
