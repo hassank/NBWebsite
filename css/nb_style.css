@@ -1,7 +1,5 @@
 /* ------ Content Sections ----- */
 .nb-top-menu {
-    min-height:75px;
-    background-color:#444343;
     z-index: 5000;
     width: 100%;
     margin: 0px;
@@ -140,6 +138,15 @@
 	font-size: 15px; 
 	text-align: center;
 }
+
+/* ------ Navbar Overrides ----- */
+.nb-navbar-collapse {
+	max-height: 340px;
+	padding-right: 15px;
+	padding-left: 15px;
+	overflow-x: visible;
+}
+
 
 /* ------ Carousel ----- */
 #nb-carousel {
