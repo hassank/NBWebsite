@@ -96,9 +96,9 @@
                 <a class="right carousel-control" href="#nb-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
 
+            <!-- Testimonial -->
             <div id="testimonials"></div>
             <hr class = "styled-hr">
-            <!-- Testimonial -->
             <div class="nb-testimonial">
                 <div class="row-fluid">
                     
@@ -110,8 +110,8 @@
             </div>
             <hr class="styled-hr">
 
-            <div id="products"></div>
             <!-- Products -->
+            <div id="products"></div>
             <div class="nb-products green-text caption" style="font-size: 30px; overflow:hidden;">
                 <div class="row-fluid" >
                     <div class="col-sm-4 col-xs-12 product-space" style="background-image: url('nbimages/Lourdes.jpg');">
@@ -138,8 +138,8 @@
                 </div>
             </div>
 
-            <div id="news"></div>
             <!-- News -->
+            <div id="news"></div>
             <div class="row-fluid green-text subtitle" style="height: 30px; text-align: center; margin: 20px 0px 0px;">
                 <div class="col-xs-12">
                     In The News
@@ -179,11 +179,11 @@
             </div>
             <div class="clearfix"></div>
 
-            <div id="story"></div>
             <!-- Story -->
+            <div id="story"></div>
             <div class="nb-story white-text" style="overflow: hidden;">
                 <div class="row-fluid" style="height: 275px;">
-                    <div class="col-lg-6 col-xs-12 story-item">
+                    <div class="col-md-6 col-xs-12 story-item">
                         <div class = "cell-align" style="padding: 10px 0px">
                             <p class="subtitle">
                                 Our Story
@@ -193,23 +193,24 @@
                             </p>
                         </div>
                     </div> 
-                    <div class="col-lg-2 visible-sm story-item">
-                        <div class="cell-align">
-                            <img src="nbimages/Ahmad.jpg" width="150" height="150" style="border:3px solid black">
+                    <!-- hidden-sm/xs set display type so use transform center instead of table center -->
+                    <div class="col-md-2 hidden-sm hidden-xs story-item"> 
+                        <div class="transform-center"> 
+                            <img src="nbimages/Ahmad.jpg" width="140" height="140" style="border:3px solid black">
                             <p class="caption no-margin"> Ahmad </p>
                             <p class="caption-mini no-margin"> Owner </p>
                         </div>
                     </div> 
-                    <div class="col-lg-2 visible-sm story-item">
-                        <div class="cell-align">
-                            <img src="nbimages/Ali.jpg" width="150" height="150" style="border:3px solid black">
+                    <div class="col-md-2 hidden-sm hidden-xs story-item">
+                        <div class="transform-center">
+                            <img src="nbimages/Ali.jpg" width="140" height="140" style="border:3px solid black">
                             <p class="caption no-margin"> Ali </p>
                             <p class="caption-mini no-margin"> Manager </p>
                         </div>
                     </div> 
-                    <div class="col-lg-2 visible-sm story-item">
-                        <div class="cell-align">
-                            <img src="nbimages/Lourdes.jpg" width="150" height="150" style="border:3px solid black">
+                    <div class="col-md-2 hidden-sm hidden-xs story-item">
+                        <div class="transform-center">
+                            <img src="nbimages/Lourdes.jpg" width="140" height="140" style="border:3px solid black">
                             <p class="caption no-margin"> Lourdes </p>
                             <p class="caption-mini no-margin"> Manager </p>
                         </div>
@@ -217,11 +218,13 @@
                 </div>
             </div>
 
+            <!-- Contact -->
             <div id="contact"></div>
             <div class="nb-contact white-text" style="overflow: hidden;">
                 <div class="row-fluid" style="height: 350px;">
-                    <div class="col-md-6 col-xs-12 contact-item">
-                        <div class = "cell-align">
+                    <!-- hidden-sm/xs set display type so use transform center instead of table center -->
+                    <div class="col-md-6 hidden-xs hidden-sm contact-item">
+                        <div class = "transform-center">
                             <div class="nb-contact-map" id="map-canvas"> </div>  
                             <div class="clearfix"></div>
                             <i>Nature's Bounty - 5634 Weber Road, Vacaville CA, 95687</i>
@@ -247,10 +250,10 @@
                         <div class="row-fluid" style="height: 150px;">
                             <div class="col-xs-12 contact-item">
                                 <div class="cell-align">
-                                    <span class="caption-header"> Hours of Operation </span>
+                                    <span class="caption-header"> Hours </span>
                                     <br>
                                     <span class="caption">
-                                        Wednesday to Sunday, 9AM-4PM
+                                        Wed-Sun, 9AM-4PM
                                         <br>
                                         Hours Vary During Holidays
                                     </span>
